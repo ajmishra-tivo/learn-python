@@ -17,6 +17,11 @@ requests = "^2.32.3"
 [tool.poetry.scripts]
 learn-python = "learn_python.client:main"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+coverage = "^7.6.1"
+pytest-mock = "^3.14.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
